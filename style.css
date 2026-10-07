@@ -6,3 +6,13 @@
 .privacy-link {
   margin: 0;
 }
+footer a {
+  color: #bdc8bf;
+  text-decoration: none;
+  font-size: 11px;
+  opacity: .8;
+}
+
+footer a:hover {
+  color: white;
+}
