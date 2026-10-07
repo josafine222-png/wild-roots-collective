@@ -18,3 +18,53 @@
   opacity: 1;
   text-decoration: underline;
 }
+footer {
+  display: block;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-policy {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid #294238;
+  text-align: center;
+}
+
+.footer-policy a {
+  color: #bdc8bf !important;
+  text-decoration: none !important;
+  font-size: 11px;
+  letter-spacing: .03em;
+  opacity: .75;
+}
+
+.footer-policy a:hover {
+  color: white !important;
+  opacity: 1;
+  text-decoration: none !important;
+}
+
+@media(max-width:800px) {
+  footer {
+    display: block;
+  }
+
+  .footer-main {
+    display: block;
+  }
+
+  .footer-main span {
+    display: block;
+    margin-top: 8px;
+  }
+
+  .footer-policy {
+    margin-top: 20px;
+  }
+}
